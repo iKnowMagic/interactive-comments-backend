@@ -5,7 +5,7 @@
   "author": "iknowmagic <ilan@iknowmagic.net>",
   "license": "MIT",
   "scripts": {
-    "start": "json-server ./data.json"
+    "start": "json-server --watch ./data.json --port 5000"
   },
   "devDependencies": {
     "json-server": "^0.17.0"
