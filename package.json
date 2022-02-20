@@ -1,0 +1,13 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "iknowmagic <ilan@iknowmagic.net>",
+  "license": "MIT",
+  "scripts": {
+    "start": "json-server ./data.json"
+  },
+  "devDependencies": {
+    "json-server": "^0.17.0"
+  }
+}
